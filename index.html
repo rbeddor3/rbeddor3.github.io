@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Bootstrap Example</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+  <link href="css/album.css" rel="stylesheet">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.0/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+  <style>
+    /* Remove the navbar's default margin-bottom and rounded borders */ 
+    .navbar {
+      margin-bottom: 0;
+      border-radius: 0;
+    }
+    
+    /* Add a gray background color and some padding to the footer */
+    footer {
+      background-color: #f2f2f2;
+      padding: 25px;
+    }
+
+  </style>
+</head>
+<body>
+
+<nav class="navbar navbar-inverse">
+  <div class="container-fluid">
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>                        
+      </button>
+      <a class="navbar-brand" href="#">Portfolio</a>
+    </div>
+    <div class="collapse navbar-collapse" id="myNavbar">
+      <ul class="nav navbar-nav">
+        <li><a href="writing_samples.html">Writing Samples</a></li>
+        <li><a href="embedded_design.html">Embedded Design</a></li>
+        <li><a href="Resume_2019_web.pdf">Contact</a></li>
+      </ul>
+      
+    </div>
+  </div>
+</nav>
+
+<div class="jumbotron">
+  <div class="container text-center">
+    <h1>Rachel Beddor</h1>      
+    <p>Product Marketing Engineer for Microchip Technology</p>
+    <p>B.S. Computer Engineering, Georgia Tech 2018</p>
+  </div>
+</div>
+  
+<div class="container-fluid bg-3 text-center">    
+  <div class="row">
+
+<div class="album py-5 bg-light">
+        <div class="container">
+
+          <div class="row">
+            <div class="col-md-5">
+              <div class="card mb-8 box-shadow">
+              <!-- display thumbnail -->
+                <img src="remote_fan.png" class="img-responsive" style="width:100%" alt="Image">
+                  <div class="card-body">
+                  <!-- item -->
+                  <h2 class = "card-title jumbotron-heading text-center">Embedded Design</h2>
+                  <!--description-->
+                  <p class="card-text text-center text-muted">Projects and tutorials in embedded design for PIC and AVR development tools.</p>
+                 <!--Learn More-->
+                <a href="embedded_design.html" class="btn btn-primary my-2">Read More</a>                
+                </div>
+              </div>
+            </div>
+            <div class="col-md-5">
+              <div class="card mb-4 box-shadow">
+              <!-- display thumbnail -->
+                <img src="aac.png" class="img-responsive" style="width:100%" alt="Image">
+                  <div class="card-body">
+                  <!-- item -->
+                  <h2 class = "card-title jumbotron-heading text-center">Writing Samples</h2>
+                  <!--description-->
+                  <p class="card-text text-center">Articles and marketing deliverables.</p>
+                 <!--Learn More-->
+                <a href="writing_samples.html" class="btn btn-primary my-2">Read More</a>                
+                </div>
+              </div>
+            </div>
+            <div class="col-md-5">
+              <div class="card mb-5 box-shadow">
+              <!-- display thumbnail -->
+                <img src="resume.png" class="img-responsive" style="width:100%" alt="Image">
+                  <div class="card-body">
+                  <!-- item -->
+                 <!--Learn More-->
+                <a href="Resume_2019_web.pdf" class="btn btn-primary my-2">Resume</a>                
+                </div>
+              </div>
+            </div>
+    </div>
+    <br>
+
+</body>
+</html>
